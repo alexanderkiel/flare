@@ -9,7 +9,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 class StructuredQueryTest {
 
     private static final TermCode C71 = TermCode.of("http://fhir.de/CodeSystem/bfarm/icd-10-gm", "C71",
-            "Malignant neoplasm of brain");
+                                                    "Malignant neoplasm of brain");
 
     @Test
     void deserializeJson() throws JsonProcessingException {
